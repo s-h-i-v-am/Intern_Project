@@ -1,0 +1,108 @@
+.bg-image
+{
+    background-image: url('Images/Rectangle 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup_signin
+{
+    display: none;
+}
+.signup_signin.open
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup
+{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 12px;
+    width: auto;
+}
+.signup.close
+{
+    display: none;
+}
+.signin
+{
+    display: none;
+}
+.signin.signinopen
+{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 12px;
+    width: auto;
+}
+.options
+{
+    display: none;
+}
+.options.show
+{
+    display: block;
+}
+
+.userDetails
+{
+    display: none;
+}
+.userDetails.login
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.account.hide
+{
+    display: none;
+}
+.groups
+{
+    display: none;
+}
+.groups.block
+{
+    display: block;
+}
+.defaultLoaction
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.defaultLoaction.none
+{
+    display: none;
+}
+.Location
+{
+    display: none;
+}
+.Location.Location_login
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .signup_signin.open
+    {
+        display: flex;
+        align-items: flex-end;
+    }
+    .signup
+    {
+        width: 100%;
+    }
+    .signin.signinopen
+    {
+        width: 100%;
+    }
+}

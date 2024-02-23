@@ -678,12 +678,16 @@ video {
   height: 32px;
 }
 
-.h-\[36px\] {
-  height: 36px;
+.h-\[345px\] {
+  height: 345px;
 }
 
-.h-\[370px\] {
-  height: 370px;
+.h-\[360px\] {
+  height: 360px;
+}
+
+.h-\[36px\] {
+  height: 36px;
 }
 
 .h-\[37px\] {
@@ -724,18 +728,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[360px\] {
-  height: 360px;
-}
-
-.h-\[350px\] {
-  height: 350px;
-}
-
-.h-\[345px\] {
-  height: 345px;
 }
 
 .w-11\/12 {
@@ -1225,138 +1217,6 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.bg-image
-{
-  background-image: url('/dist/Images/Rectangle 2.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.signup_signin
-{
-  display: none;
-}
-
-.signup_signin.open
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.signup
-{
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  gap: 12px;
-  width: auto;
-}
-
-.signup.close
-{
-  display: none;
-}
-
-.signin
-{
-  display: none;
-}
-
-.signin.signinopen
-{
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  gap: 12px;
-  width: auto;
-}
-
-.options
-{
-  display: none;
-}
-
-.options.show
-{
-  display: block;
-}
-
-.userDetails
-{
-  display: none;
-}
-
-.userDetails.login
-{
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.account.hide
-{
-  display: none;
-}
-
-.groups
-{
-  display: none;
-}
-
-.groups.block
-{
-  display: block;
-}
-
-.defaultLoaction
-{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.defaultLoaction.none
-{
-  display: none;
-}
-
-.Location
-{
-  display: none;
-}
-
-.Location.Location_login
-{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 768px) {
-  .signup_signin.open
-    {
-    display: flex;
-    align-items: flex-end;
-  }
-
-  .signup
-    {
-    width: 100%;
-  }
-
-  .signin.signinopen
-    {
-    width: 100%;
-  }
-}
-
-/* @media screen and (min-width: 768px) and (max-width: 1024px)
-{
-
-}  */
-
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -1396,8 +1256,8 @@ video {
     height: 220px;
   }
 
-  .lg\:h-\[280px\] {
-    height: 280px;
+  .lg\:h-\[270px\] {
+    height: 270px;
   }
 
   .lg\:h-\[440px\] {
@@ -1416,16 +1276,8 @@ video {
     height: 513px;
   }
 
-  .lg\:h-\[550px\] {
-    height: 550px;
-  }
-
   .lg\:h-\[520px\] {
     height: 520px;
-  }
-
-  .lg\:h-\[270px\] {
-    height: 270px;
   }
 
   .lg\:w-11\/12 {
@@ -1521,3 +1373,4 @@ video {
     opacity: 1;
   }
 }
+
